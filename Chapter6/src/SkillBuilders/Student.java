@@ -28,9 +28,25 @@ public class Student
 	{
 		fullName = nm;
 	}
-	public void setGPA(double)
+	public void setGPA(double x)
 	{
-		
+		gpa = x;
 	}
 	
+	public void updateGPA(double newGPA)
+	{
+		if(newGPA >= 0 && newGPA <= 4.0)
+		{
+			gpa = newGPA;
+		}
+		else
+		{
+			System.out.println("Invalid GPA - must be between 0 -4");
+		}
+	}
+	
+	public String toString()
+	{
+		return fullName + " (GPA: "+ gpa +")";
+	}
 }

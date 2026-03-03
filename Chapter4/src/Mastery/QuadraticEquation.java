@@ -33,12 +33,12 @@ public class QuadraticEquation
 		else if (calculateDiscriminant == 0)
 		{
 			double root3 = -b / (2 * a);
-			System.out.println(" The root is " + root3);
+			System.out.println("The root is " + root3);
 		}
 		// If there are no real roots
 		else
 		{
-			System.out.println(" There are no real roots ");
+			System.out.println("There are no real roots ");
 		}
 		
 	}
