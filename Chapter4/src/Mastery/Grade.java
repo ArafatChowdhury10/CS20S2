@@ -1,3 +1,16 @@
+/*
+
+Program: Grade.java          Last Date of this Revision: March 4, 2026
+
+Purpose: An application that gives a grade letter based on the percentage
+
+Author: Arafat Chowdhury, 
+School: CHHS
+Course: Computer Programming 20
+ 
+
+*/
+
 package Mastery;
 
 import java.util.Scanner;
@@ -52,3 +65,22 @@ public class Grade
 	}
 
 }
+
+/* Screen Dump
+
+Enter the percentage: 20
+The Corresponding letter grade is: F
+
+Enter the percentage: 60
+The Corresponding letter grade is: D
+
+Enter the percentage: 72
+The Corresponding letter grade is: C
+
+Enter the percentage: 85
+The Corresponding letter grade is: B
+
+Enter the percentage: 93
+The Corresponding letter grade is: A
+ 
+ */

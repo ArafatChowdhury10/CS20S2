@@ -1,3 +1,15 @@
+/*
+
+Program: QuadraticEquation.java           Last Date of this Revision: March 4, 2026
+
+Purpose: An application that finds the real roots of the quadratic equation.  
+
+Author: Arafat Chowdhury, 
+School: CHHS
+Course: Computer Programming 20
+
+*/
+
 package Mastery;
 import java.util.Scanner;
 public class QuadraticEquation
@@ -43,3 +55,23 @@ public class QuadraticEquation
 		
 	}
 }
+
+
+/* Screen Dump
+
+Enter a value for A: 3
+Enter a value for B: 2
+Enter a value for C: 1
+There are no real roots 
+
+Enter a value for A: 2
+Enter a value for B: 4
+Enter a value for C: -30
+The roots are -5.0 and 3.0
+
+Enter a value for A: 1
+Enter a value for B: -4
+Enter a value for C: 4
+The root is 2.0
+ 
+ */
