@@ -7,7 +7,6 @@ and then calculates and displays the sum of the digits of that number.
 Author: Arafat Chowdhury 
 School: CHHS
 Course: Computer Programming 20
- 
 */
 package Mastery;
 
