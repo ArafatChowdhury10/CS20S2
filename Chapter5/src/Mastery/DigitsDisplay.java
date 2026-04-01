@@ -2,12 +2,13 @@
 
 Program: DigitsDisplay.java          Last Date of this Revision: March 9, 2026
 
-Purpose: 
+Purpose: An application that prompts the user to enter a positive integer and then display
+that digit seperately from left to right. 
 
 Author: Arafat Chowdhury 
 School: CHHS
 Course: Computer Programming 20
- 
+
 */
 
 package Mastery;
