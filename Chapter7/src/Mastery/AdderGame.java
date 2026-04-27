@@ -50,11 +50,10 @@ public class AdderGame
 					else
 						score += 1;
 					
-					
 				}
 				if (answer == 999)
 				{
-					System.out.println("Your score is " + score);
+					System.out.print("Your score is " + score);
 				}
 			}
 		}
