@@ -1,3 +1,14 @@
+/*
+
+Program: AdderGame.java          Last Date of this Revision: April 27, 2026
+
+Purpose: An object that represents one single math problem.
+
+Author: Arafat Chowdhury 
+School: CHHS
+Course: Computer Programming 20
+ 
+*/
 package Mastery;
 
 import java.util.Scanner;
@@ -20,10 +31,28 @@ public class AdderGame
 		{
 			Question question = new Question();
 			int tries = 0;
-			int user = input.nextInt();
+			int answer = input.nextInt();
+			int correct = question.correctAnswer();
 			while(tries < 3)
 			{
-				if (user == 999)
+				if (answer != correct)
+					System.out.println("Incorrect answer please try again");
+				if (answer == correct)
+				{
+					if (tries == 0)
+					{
+						score += 5;
+					}
+					else if (tries == 1)
+					{
+						score += 3;
+					}
+					else
+						score += 1;
+					
+					
+				}
+				if (answer == 999)
 				{
 					System.out.println("Your score is " + score);
 				}
@@ -31,3 +60,8 @@ public class AdderGame
 		}
 	}
 }
+/* Screen Dump
+
+Paste the output of your code here
+ 
+ */
