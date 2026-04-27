@@ -28,7 +28,7 @@ public class Question
         return a + " + " + b + " = ";
     }
 
-    public int correctAnswer()//
+    public int correctAnswer()
     {
         return a + b;
     }
