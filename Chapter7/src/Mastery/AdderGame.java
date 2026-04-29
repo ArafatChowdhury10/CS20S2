@@ -31,12 +31,11 @@ public class AdderGame
 		{
 			Question question = new Question();
 			int tries = 0;
-			int answer = input.nextInt();
 			int correct = question.correctAnswer();
+			System.out.print(question.getQuestion());
 			while(tries < 3)
 			{
-				if (answer != correct)
-					System.out.println("Incorrect answer please try again");
+				int answer = input.nextInt();
 				if (answer == correct)
 				{
 					if (tries == 0)
@@ -49,11 +48,23 @@ public class AdderGame
 					}
 					else
 						score += 1;
-					
+					break;
+				}
+                else
+                    tries++;
+
+                    if (tries < 3)
+                    {
+                        System.out.print("Wrong answer. Enter another answer: ");
+                    }
+                    else
+                    {
+                        System.out.println("No points. Correct answer is: " + correct);
 				}
 				if (answer == 999)
 				{
 					System.out.print("Your score is " + score);
+					return;
 				}
 			}
 		}
