@@ -52,6 +52,7 @@ public class DigitExtractor
             {
                 System.out.println("Goodbye!s");
                 return;
+            
             }
             // display whole number
             else if(choice.equals("w"))
