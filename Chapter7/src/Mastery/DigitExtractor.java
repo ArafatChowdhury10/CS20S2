@@ -50,7 +50,7 @@ public class DigitExtractor
             // exit program
             if(choice.equals("q"))
             {
-                System.out.println("Goodbye!s");
+                System.out.println("Goodbye!");
                 return;
             
             }

@@ -21,7 +21,47 @@ public class MainDigit
     }
 }
 /* Screen Dump
+Enter an integer: 634
 
+Show (W)hole number.
+Show (O)nes number.
+Show (T)ens number.
+Show (H)undreds place number.
+Enter (Q)uit.
+Enter your choice: w
+Whole number is: 634
+
+Show (W)hole number.
+Show (O)nes number.
+Show (T)ens number.
+Show (H)undreds place number.
+Enter (Q)uit.
+Enter your choice: o
+Ones digit is: 4
+
+Show (W)hole number.
+Show (O)nes number.
+Show (T)ens number.
+Show (H)undreds place number.
+Enter (Q)uit.
+Enter your choice: t
+Tens digit is: 3
+
+Show (W)hole number.
+Show (O)nes number.
+Show (T)ens number.
+Show (H)undreds place number.
+Enter (Q)uit.
+Enter your choice: h
+Hundreds digit is: 6
+
+Show (W)hole number.
+Show (O)nes number.
+Show (T)ens number.
+Show (H)undreds place number.
+Enter (Q)uit.
+Enter your choice: q
+Goodbye!
 
  
  */
