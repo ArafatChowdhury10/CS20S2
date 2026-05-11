@@ -1,6 +1,6 @@
 /*
 
-Program: Question.java          Last Date of this Revision: April 21, 2026
+Program: Question.java          Last Date of this Revision: April 29, 2026
 
 Purpose: An object that represents one single math problem.
 
@@ -14,28 +14,24 @@ import java.util.Random;
 
 public class Question 
 {
-    private int a;
-    private int b;
+    private int firstNumber; // first random number
+    private int secondNumber; // second random number
 
     public Question()
     {
-        a = (int)(Math.random() * 21);
-        b = (int)(Math.random() * 21);
+        firstNumber = (int)(Math.random() * 21); // generate random number from 0–20
+        secondNumber = (int)(Math.random() * 21); // generate random number from 0–20
     }
 
+    // returns the question as a string (e.g., "5 + 7 = ")
     public String getQuestion()
     {
-        return a + " + " + b + " = ";
+        return firstNumber + " + " + secondNumber + " = ";
     }
 
+    // returns the correct answer to the question
     public int correctAnswer()
     {
-        return a + b;
+        return firstNumber + secondNumber;
     }
-
 }
-/* Screen Dump
-
-Paste the output of your code here
- 
- */
